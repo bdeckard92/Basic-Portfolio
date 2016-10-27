@@ -1,48 +1,112 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+	width: 960px%;
+	
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-ol, ul {
+
+header {
+	
+	background-color: #4aaaa5;
+	border-width: 10px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	width: 150px;
+	margin-left: 30px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	color: white;
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 22px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 40%;
+    margin-left: 800px;
+}
+
+li {
+	float:left
+}
+
+#about, #port, #cont {
+    display: inline;
+    padding-right: 25px;
+    padding-left: 25px;
+	text-decoration: none;
+	font-color: grey;
+	margin-right: 5px;
+ }
+
+ #port, #cont {
+	border-left: 1px solid gray
+}
+
+.container {
+	height: 100%;
+	width: 100%px;
+	border-style: solid; color: #black;
+	position: relative;
+	top: 80px;
+	background-color: tan;
+
+}
+
+#mainbio {
+	
+	float: left;
+	margin-left: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: relative;
+	top: 90px;
+	width: 50%;
+}
+
+#selfie {
+	float: left;
+	height: 250px;
+	width: 250px;
+	padding-right: 2px;
+}
+
+#connect {
+	width: 270px;
+	
+	float: right;
+		
+	}
+
+#link {
 	list-style: none;
+	display: inline-block;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
+#git, #in, #stack {
+
+    display: inline;
+   
+ }
+
+
+
+footer {
+	background-color: #666666;
+	border-spacing: 25px;
+	clear: both;
+	width: 100%;
+	position: fixed; 
+	bottom: 0px;
+	left: 0px; 
+	height: 30px;
+	color: white;
+	padding-left: 250px;
+	border-top: 19px; border-color: #4aaaa5;
+
+}	
+
